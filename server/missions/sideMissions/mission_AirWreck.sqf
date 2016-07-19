@@ -37,7 +37,7 @@ _setupObjects =
 	{ _x setVariable ["R3F_LOG_disabled", true, true] } forEach [_box1, _box2];
 
 	_aiGroup = createGroup CIVILIAN;
-	[_aiGroup, _missionPos, _nbUnits] call createCustomGroup;
+	[_aiGroup, _missionPos, _nbUnits] call createCustomGroup4;
 
 	_missionPicture = getText (configFile >> "CfgVehicles" >> typeOf _wreck >> "picture");
 	_missionHintText = "A helicopter has come down under enemy fire!";

@@ -6,5 +6,6 @@
 
 [
 	"Outpost1",
-	"Outpost2"
+	"Outpost2",
+	"Outpost3"
 ]

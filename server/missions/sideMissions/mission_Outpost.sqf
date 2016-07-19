@@ -26,7 +26,7 @@ _setupObjects =
 	_objects = [_outpost, _missionPos, 0] call createOutpost;
 
 	_aiGroup = createGroup CIVILIAN;
-	[_aiGroup, _missionPos, _nbUnits, 5] call createCustomGroup;
+	[_aiGroup, _missionPos, _nbUnits, 5] call createCustomGroup6;
 
 	_missionHintText = format ["An armed <t color='%1'>outpost</t> containing weapon crates has been spotted near the marker, go capture it!", sideMissionColor]
 };

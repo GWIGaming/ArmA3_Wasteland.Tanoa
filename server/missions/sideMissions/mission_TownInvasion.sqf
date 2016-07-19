@@ -57,7 +57,7 @@ _setupObjects =
 
 	// spawn some rebels/enemies :)
 	_aiGroup = createGroup CIVILIAN;
-	[_aiGroup, _missionPos, _nbUnits] call createCustomGroup2;
+	[_aiGroup, _missionPos, _nbUnits] call createCustomGroup3;
 
 	// move them into buildings
 	[_aiGroup, _missionPos, _buildingRadius, _fillEvenly, _putOnRoof] call moveIntoBuildings;

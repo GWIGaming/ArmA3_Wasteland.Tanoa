@@ -166,7 +166,7 @@ _setupObjects =
 	reload _vehicle;*/
 
 	_aiGroup = createGroup CIVILIAN;
-	[_aiGroup, _missionPos, _nbUnits] call createCustomGroup;
+	[_aiGroup, _missionPos, _nbUnits] call createCustomGroup6;
 
 	_missionPicture = getText (configFile >> "CfgVehicles" >> _vehicleClass >> "picture");
 	_vehicleName = getText (configFile >> "CfgVehicles" >> _vehicleClass >> "displayName");

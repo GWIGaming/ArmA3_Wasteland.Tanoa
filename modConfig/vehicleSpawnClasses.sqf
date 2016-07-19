@@ -14,7 +14,7 @@ A3W_smallVehicles =
 civilianVehicles =
 [
 	"C_Hatchback_01_F",
-	"C_Hatchback_01_sport_F",
+	"C_Hatchback_01_sport_F", // It's the Fastest Car in the Game
 	"C_SUV_01_F",
 	["C_Offroad_01_F", "I_G_Offroad_01_F"],
 	["C_Offroad_02_unarmed_F", "I_C_Offroad_02_unarmed_F"],
@@ -95,7 +95,9 @@ vehicleWeapons =
 	["srifle_EBR_F", "srifle_DMR_01_F", "srifle_DMR_07_blk_F", "arifle_SPAR_03_blk_F"],
 	["arifle_SPAR_02_blk_F", "arifle_CTARS_blk_F", "LMG_03_F"],
 	["arifle_MX_SW_khk_F", "LMG_Mk200_F", "LMG_Zafir_F"],
-	["arifle_MX_SW_F", "LMG_Mk200_F", "LMG_Zafir_F"]
+	["arifle_MX_SW_F", "LMG_Mk200_F", "LMG_Zafir_F"],
+	"srifle_DMR_04_F", // ASP-1. It's the worst gun in the game
+	"launch_RPG7_F"
 ];
 
 vehicleAddition =

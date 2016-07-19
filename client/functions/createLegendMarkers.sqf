@@ -6,10 +6,7 @@
 
 _markers =
 [
-	["Legend:", "EmptyIcon", "ColorWhite", [1,1]],
-
-	["GS - General Store", "mil_dot", "ColorBlue", [1,1]],
-	["VS - Vehicle Store", "mil_dot", "ColorOrange", [1,1]]
+	["Legend:", "EmptyIcon", "ColorWhite", [1,1]]
 ];
 
 
