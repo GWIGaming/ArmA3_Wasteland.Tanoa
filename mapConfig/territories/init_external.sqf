@@ -1,0 +1,9 @@
+#include "00_bravo.sqf";
+#include "01_georgetown.sqf";
+#include "02_lijnhaven.sqf";
+#include "03_aeroport.sqf";
+#include "04_temple.sqf";
+#include "05_sosovu.sqf";
+#include "06_bua.sqf";
+#include "07_savaka.sqf";
+#include "08_port.sqf";
