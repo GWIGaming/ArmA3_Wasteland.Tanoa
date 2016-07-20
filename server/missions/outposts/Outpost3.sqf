@@ -1,14 +1,13 @@
 // ******************************************************************************************
 // * This project is licensed under the GNU Affero GPL v3. Copyright © 2014 A3Wasteland.com *
 // ******************************************************************************************
-//	@file Name: Outpost4.sqf
+//	@file Name: Outpost3.sqf
 //	@file Author: Coolbreeze
 
 [
 	// Class, Position, Direction, Init (optional)
 	["Land_HBarrier_01_big_tower_green_F", [-4.2167692, -22.419922, 0], 0],
 	["Land_HelipadSquare_F", [0, 0, 0], 269.486946067],
-	["O_T_VTOL_02_infantry_F", [0, 0, 0], 269.486946067],
 	["Land_HBarrier_01_wall_6_green_F", [-11.624972, -21.422363, 0], 179.908438274],
 	["Land_HBarrier_01_wall_6_green_F", [-19.222628, -15.634766, 0], 270.08497077],
 	["Land_HBarrier_01_wall_corner_green_F", [-18.54001, -21.65918, 0], 179.876243776],
