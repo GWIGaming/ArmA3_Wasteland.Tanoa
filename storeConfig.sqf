@@ -871,7 +871,7 @@ tanksArray = compileFinal str
 
 helicoptersArray = compileFinal str
 [
-	["M-900 Civilian", "C_Heli_Light_01_civil_F", 4000, "vehicle"], // MH-6, no flares
+	["M-900 Civilian", "C_Heli_Light_01_civil_F", 1500, "vehicle"], // MH-6, no flares
 	["MH-9 Hummingbird", "B_Heli_Light_01_F", 5000, "vehicle"], // MH-6
 	["PO-30 Orca (Black)", "O_Heli_Light_02_unarmed_F", 7000, "vehicle"], // Ka-60
 	["WY-55 Hellcat (Green)", "I_Heli_light_03_unarmed_F", 7000, "vehicle"], // AW159
@@ -902,7 +902,7 @@ helicoptersArray = compileFinal str
 
 planesArray = compileFinal str
 [
-	["Caesar BTT [DLC]", "C_Plane_Civil_01_F", 3000, "vehicle"],
+	["Caesar BTT [DLC]", "C_Plane_Civil_01_F", 1500, "vehicle"],
 
 	["A-143 Buzzard AA", "I_Plane_Fighter_03_AA_F", 40000, "vehicle"],
 	//["A-143 Buzzard CAS", "I_Plane_Fighter_03_CAS_F", 45000, "vehicle", "HIDDEN"],
