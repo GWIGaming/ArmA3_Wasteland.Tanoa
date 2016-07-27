@@ -164,6 +164,9 @@ _setupObjects =
 	};
 
 	reload _vehicle;*/
+	
+	_base = (call compile preprocessFileLineNumbers "server\missions\bases\baseList.sqf") call BIS_fnc_SelectRandom;
+	_objects = [_base, _missionPos, 0] call createBase;	
 
 	_aiGroup = createGroup CIVILIAN;
 	[_aiGroup, _missionPos, _nbUnits] call createCustomGroup6;

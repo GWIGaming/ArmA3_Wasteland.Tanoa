@@ -18,7 +18,7 @@ sleep 0.1; // Without this delay, headgear doesn't get removed properly
 _leader addUniform "U_O_V_Soldier_Viper_F";
 _leader addVest "V_HarnessO_ghex_F";
 _leader addBackpack "B_ViperHarness_ghex_F";
-_leader addHeadgear "H_HelmetO_ViperSP_ghex_F";
+_leader addHeadgear "H_HelmetLeaderO_ghex_F";
 _leader addGoggles "G_Balaclava_TI_G_blk_F";
 _leader addMagazine "30Rnd_65x39_caseless_green";
 _leader addWeapon "arifle_ARX_ghex_F";
@@ -49,7 +49,7 @@ _leader addEventHandler ["Killed", server_playerDied];
 _man2 = _group createUnit ["C_man_polo_2_F", [(_pos select 0) - 30, _pos select 1, 0], [], 1, "Form"];
 removeAllAssignedItems _man2;
 sleep 0.1; // Without this delay, headgear doesn't get removed properly
-_man2 addHeadgear "H_HelmetO_ViperSP_ghex_F";
+_man2 addHeadgear "H_HelmetLeaderO_ghex_F";
 _man2 addGoggles "G_Balaclava_TI_G_blk_F";
 _man2 addUniform "U_O_V_Soldier_Viper_F";
 _man2 addVest "V_HarnessO_ghex_F";
@@ -85,7 +85,7 @@ sleep 0.1; // Without this delay, headgear doesn't get removed properly
 _man3 addUniform "U_O_V_Soldier_Viper_F";
 _man3 addVest "V_HarnessO_ghex_F";
 _man3 addBackpack "B_ViperHarness_ghex_F";
-_man3 addHeadgear "H_HelmetO_ViperSP_ghex_F";
+_man3 addHeadgear "H_HelmetLeaderO_ghex_F";
 _man3 addGoggles "G_Balaclava_TI_G_blk_F";
 _man3 addItemToVest "FirstAidKit";
 _man3 addItemToBackpack "Medikit";
@@ -114,7 +114,7 @@ _man4 addUniform  "U_O_T_FullGhillie_tna_F";
 _man4 addVest "V_HarnessO_ghex_F";
 _man4 addBackpack "B_ViperHarness_ghex_F";
 _man4 addItemToVest "FirstAidKit";
-_man4 addHeadgear "H_HelmetO_ViperSP_ghex_F";
+_man4 addHeadgear "H_HelmetLeaderO_ghex_F";
 _man4 addGoggles "G_Balaclava_TI_G_blk_F";
 _man4 addWeapon "srifle_DMR_05_hex_F";
 _man4 addMagazine "10Rnd_93x64_DMR_05_Mag";
@@ -142,7 +142,7 @@ sleep 0.1; // Without this delay, headgear doesn't get removed properly
 _man5 addUniform "U_O_V_Soldier_Viper_F";
 _man5 addVest "V_HarnessO_ghex_F";
 _man5 addBackpack "B_ViperHarness_ghex_F";
-_man5 addHeadgear "H_HelmetO_ViperSP_ghex_F";
+_man5 addHeadgear "H_HelmetLeaderO_ghex_F";
 _man5 addGoggles "G_Balaclava_TI_G_blk_F";
 _man5 addItemToVest "FirstAidKit";
 _man5 addItemToBackpack "Medikit";
@@ -167,7 +167,7 @@ _man5 addEventHandler ["Killed", server_playerDied];
 _man6 = _group createUnit ["C_man_polo_4_F", [_pos select 0, (_pos select 1) + 40, 0], [], 1, "Form"];
 removeAllAssignedItems _man6;
 sleep 0.1; // Without this delay, headgear doesn't get removed properly
-_man6 addHeadgear "H_HelmetO_ViperSP_ghex_F";
+_man6 addHeadgear "H_HelmetLeaderO_ghex_F";
 _man6 addGoggles "G_Balaclava_TI_G_blk_F";
 _man6 addUniform "U_O_V_Soldier_Viper_F";
 _man6 addVest "V_HarnessO_ghex_F";
@@ -198,7 +198,7 @@ _man6 addEventHandler ["Killed", server_playerDied];
 _man7 = _group createUnit ["C_man_polo_4_F", [_pos select 0, (_pos select 1) + 40, 0], [], 1, "Form"];
 removeAllAssignedItems _man7;
 sleep 0.1; // Without this delay, headgear doesn't get removed properly
-_man7 addHeadgear "H_HelmetO_ViperSP_ghex_F";
+_man7 addHeadgear "H_HelmetLeaderO_ghex_F";
 _man7 addGoggles "G_Balaclava_TI_G_blk_F";
 _man7 addUniform "U_O_V_Soldier_Viper_F";
 _man7 addVest "V_HarnessO_ghex_F";
@@ -229,7 +229,7 @@ _man7 addEventHandler ["Killed", server_playerDied];
 _man8 = _group createUnit ["C_man_polo_4_F", [_pos select 0, (_pos select 1) + 40, 0], [], 1, "Form"];
 removeAllAssignedItems _man8;
 sleep 0.1; // Without this delay, headgear doesn't get removed properly
-_man8 addHeadgear "H_HelmetO_ViperSP_ghex_F";
+_man8 addHeadgear "H_HelmetLeaderO_ghex_F";
 _man8 addGoggles "G_Balaclava_TI_G_blk_F";
 _man8 addUniform "U_O_V_Soldier_Viper_F";
 _man8 addVest "V_HarnessO_ghex_F";
@@ -260,7 +260,7 @@ _man8 addEventHandler ["Killed", server_playerDied];
 _man9 = _group createUnit ["C_man_polo_4_F", [_pos select 0, (_pos select 1) + 40, 0], [], 1, "Form"];
 removeAllAssignedItems _man9;
 sleep 0.1; // Without this delay, headgear doesn't get removed properly
-_man9 addHeadgear "H_HelmetO_ViperSP_ghex_F";
+_man9 addHeadgear "H_HelmetLeaderO_ghex_F";
 _man9 addGoggles "G_Balaclava_TI_G_blk_F";
 _man9 addUniform "U_O_V_Soldier_Viper_F";
 _man9 addVest "V_HarnessO_ghex_F";

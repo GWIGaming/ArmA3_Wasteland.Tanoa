@@ -15,6 +15,7 @@ MainMissions =
 	["mission_HostileHeliFormation", 0.5],
 	["mission_APC", 1],
 	["mission_MBT", 1],
+	["mission_VTOL", 1],
 	["mission_LightArmVeh", 1],
 	["mission_ArmedHeli", 1]
 	//["mission_CivHeli", 1]
@@ -27,7 +28,9 @@ SideMissions =
 	["mission_SunkenSupplies", 1],
 	["mission_TownInvasion", 2],
 	["mission_Outpost", 3],
-	["mission_Truck", 1]
+	["mission_Truck", 1],
+	["mission_Smugglers", 1],
+	["mission_drugsRunners", 1]
 ];
 
 MoneyMissions =
