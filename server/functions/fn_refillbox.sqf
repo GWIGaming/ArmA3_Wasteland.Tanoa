@@ -88,28 +88,72 @@ switch (_boxType) do
 			["itm", ["muzzle_snds_B", ["muzzle_snds_338_black", "muzzle_snds_338_green", "muzzle_snds_338_sand"], ["muzzle_snds_93mmg", "muzzle_snds_93mmg_tan"]], RANDOM_BETWEEN(1,4)]
 		];
 	};
-	case "airdrop_DLC_Rifles":
+	// Boxes for APOC Airdrop Assistance. Mission boxes go above this line. 
+	case "airdrop_Rifles":
 	{
 		_boxItems =
 		[
 			// Item type, Item class(es), # of items, # of magazines per weapon
-			["wep", ["srifle_DMR_03_multicam_F", "srifle_DMR_02_sniper_F", "srifle_DMR_05_hex_F", "srifle_DMR_04_Tan_F"], 2,4],
-			["itm", ["V_RebreatherB", "V_PlateCarrierIAGL_dgtl", "V_TacVest_camo", "V_PlateCarrierGL_rgr"], RANDOM_BETWEEN(1,8)],
-			["itm", ["B_Carryall_mcamo", "B_Kitbag_mcamo"], RANDOM_BETWEEN(2,5)],
-			["itm", ["bipod_01_F_blk", "bipod_02_F_hex"], 3]
+			["wep", ["srifle_DMR_03_F", "arifle_AK12_GL_F", "arifle_ARX_blk_F", "srifle_DMR_07_blk_F", "arifle_MX_GL_Black_F"], 2,4],
+			["itm", ["V_PlateCarrierIAGL_dgtl", "V_TacVest_camo", "V_PlateCarrierGL_rgr"], RANDOM_BETWEEN(1,4)],
+			["itm", ["B_Carryall_oli", "B_Kitbag_rgr"], RANDOM_BETWEEN(2,5)],
+			["itm", ["muzzle_snds_65_TI_blk_F", "muzzle_snds_M"], 3],
+			["itm", ["bipod_01_F_blk", "bipod_02_F_hex"], 3],
+			["itm", ["optic_Hamr", "optic_DMS"], 3]
 		];
 	};
-	case "airdrop_DLC_LMGs":
+	case "airdrop_LMGs":
 	{
 		_boxItems =
 		[
 			// Item type, Item class(es), # of items, # of magazines per weapon
-			["wep", ["MMG_02_black_F", "MMG_01_hex_F"], 2,5],
-			["itm", ["V_RebreatherB", "V_PlateCarrierIAGL_dgtl", "V_TacVest_camo", "V_PlateCarrierGL_rgr"], RANDOM_BETWEEN(1,8)],
-			["itm", ["B_Carryall_mcamo", "B_Kitbag_mcamo"], RANDOM_BETWEEN(2,5)],
-			["itm", ["bipod_01_F_blk", "bipod_02_F_hex"], 2]
+			["wep", ["MMG_02_black_F", "MMG_01_hex_F"], RANDOM_BETWEEN(0,2),4],
+			["wep", ["LMG_03_F", "arifle_CTARS_blk_F"], 2,4],
+			["itm", ["V_PlateCarrierIAGL_dgtl", "V_TacVest_camo", "V_PlateCarrierGL_rgr"], RANDOM_BETWEEN(1,4)],
+			["itm", ["B_Carryall_oli", "B_Kitbag_rgr"], RANDOM_BETWEEN(2,5)],
+			["itm", ["muzzle_snds_338_black", "muzzle_snds_93mmg", "muzzle_snds_58_blk_F", "muzzle_snds_M"], RANDOM_BETWEEN(1,3)],
+			["itm", ["bipod_01_F_blk", "bipod_02_F_hex"], 2],
+			["itm", ["optic_DMS", "optic_AMS"], 2]
 		];
 	};	
+	case "airdrop_Gear":
+	{
+		_boxItems =
+		[
+			// Item type, Item class(es), # of items, # of magazines per weapon
+			["itm", ["H_HelmetB_TI_tna_F", "H_RacingHelmet_2_F", "H_CrewHelmetHeli_B", "H_HelmetB_Enh_tna_F"], 4],
+			["itm", ["V_PlateCarrierGL_tna_F", "V_PlateCarrier2_tna_F", "V_TacVestIR_blk", "V_PlateCarrierSpec_tna_F"], RANDOM_BETWEEN(3,8)],
+			["itm", ["B_Carryall_oli", "B_Kitbag_rgr", "B_Bergen_tna_F"], RANDOM_BETWEEN(3,5)],
+			["itm", ["U_I_FullGhillie_lsh", "U_BG_Guerilla1_1", "U_I_pilotCoveralls"], RANDOM_BETWEEN(3,5)],
+			["itm", ["ItemGPS", "G_Balaclava_TI_G_blk_F"], 4]
+		];
+	};
+	case "airdrop_Launchers":
+	{
+		_boxItems =
+		[
+			// Item type, Item class(es), # of items, # of magazines per weapon
+			["wep", ["launch_I_Titan_short_F"], RANDOM_BETWEEN(1,2), RANDOM_BETWEEN(2,3)],
+			["wep", ["launch_I_Titan_F"], RANDOM_BETWEEN(0,2), RANDOM_BETWEEN(2,4)],
+			["wep", ["launch_NLAW_F"], RANDOM_BETWEEN(1,3), RANDOM_BETWEEN(2,3)],
+			["wep", ["launch_RPG32_F"], RANDOM_BETWEEN(2,3), RANDOM_BETWEEN(1,3)],			
+			["itm", ["V_PlateCarrierIAGL_dgtl", "V_TacVest_camo", "V_PlateCarrierGL_rgr"], RANDOM_BETWEEN(1,8)],
+			["itm", ["B_Carryall_oli", "B_Kitbag_rgr"], RANDOM_BETWEEN(2,5)]
+		];
+	};
+	case "airdrop_Snipers":
+	{
+		_boxItems =
+		[
+			// Item type, Item class(es), # of items, # of magazines per weapon
+			["wep", ["srifle_GM6_ghex_LRPS_F", "srifle_LRR_tna_LRPS_F", "srifle_GM6_LRPS_F", "srifle_LRR_LRPS_F"], RANDOM_BETWEEN(2,3), RANDOM_BETWEEN(6,8)],
+			["wep", ["srifle_DMR_05_blk_F", "srifle_DMR_02_F"], RANDOM_BETWEEN(2,3), RANDOM_BETWEEN(6,8)],
+			["wep", ["Binocular", "Rangefinder"], RANDOM_BETWEEN(1,3)],
+			["bac", ["B_Carryall_oli", "B_Kitbag_rgr"], RANDOM_BETWEEN(2,5)],			
+			["itm", ["optic_DMS", "optic_AMS", "optic_KHS_blk"], RANDOM_BETWEEN(5,8)],
+			["itm", "Nightstalker", RANDOM_BETWEEN(0,1)]
+		];
+	};		
 };
 
 [_box, _boxItems] call processItems;
