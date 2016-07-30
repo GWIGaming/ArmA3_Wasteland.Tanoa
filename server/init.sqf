@@ -103,9 +103,9 @@ diag_log "WASTELAND SERVER - Server Compile Finished";
 call compile preprocessFileLineNumbers "server\default_config.sqf";
 
 // load external config
-if (loadFile (externalConfigFolder + "\main_config.sqf") != "") then
+if (loadFile (externalConfigFolder + "\tanoamain_config.sqf") != "") then
 {
-	call compile preprocessFileLineNumbers (externalConfigFolder + "\main_config.sqf");
+	call compile preprocessFileLineNumbers (externalConfigFolder + "\tanoamain_config.sqf");
 }
 else
 {

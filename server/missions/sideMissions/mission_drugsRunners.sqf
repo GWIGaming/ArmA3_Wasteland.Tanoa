@@ -25,11 +25,11 @@ _setupObjects =
 	// pick the vehicles for the convoy
 	_convoyVeh = if (missionDifficultyHard) then
 	{
-		["C_Hatchback_01_sport_F"]
+		["C_Hatchback_01_sport_F"]  // It's the fastest car in the game
 	}
 	else
 	{
-		["C_Hatchback_01_sport_F"]
+		["C_Hatchback_01_sport_F"]  // It's the fastest car in the game
 	};
 
 	_veh1 = _convoyVeh select 0;
